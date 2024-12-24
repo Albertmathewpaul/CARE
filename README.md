@@ -1,7 +1,7 @@
 # CARE
 Setup Instructions
 Prerequisites
-Python: Install Python (version 3.10 recommended) from python.org.
+Python: Install Python (version 3.9 recommended) from python.org.
 Git: Install Git from git-scm.com.
 Basic Knowledge: Familiarity with Python virtual environments is helpful but not required.
 Step-by-Step Setup
@@ -30,7 +30,7 @@ Run the following command to install all necessary libraries:
 bash
 Copy code
 pip install -r requirements.txt
-4. Run the Streamlit Application
+#4. Run the Streamlit Application
 Make sure your virtual environment is activated.
 Start the app by running:
 bash
