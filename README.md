@@ -11,27 +11,29 @@ Copy code
 git clone https://github.com/Albertmathewpaul/CARE.git
 cd CARE
 2. Set Up a Virtual Environment
+   
 Create a virtual environment:
+
 bash
 Copy code
 python -m venv myenv
+
 Activate the environment:
+
 Windows:
+
 bash
 Copy code
 myenv\Scripts\activate
-Mac/Linux:
-bash
-Copy code
-source myenv/bin/activate
-3. Install Required Libraries
+
+4. Install Required Libraries
 Run the following command to install all necessary libraries:
 bash
 Copy code
 pip install -r requirements.txt
 
 
-4. Run the Streamlit Application
+5. Run the Streamlit Application
 Make sure your virtual environment is activated.
 
 Start the app by running:
