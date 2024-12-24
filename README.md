@@ -49,15 +49,27 @@ Model training was done in Google Colab. You can replicate the training by uploa
 
 Save the trained weights as classification_model.pth and place it in the project folder.
 
-File Structure
+File Structure:
+
 bash
+
 Copy code
+
 CARE/
 │
-├── app.py                  # Main Streamlit app
-├── classification_model.pth # Pretrained model file
-├── requirements.txt        # Required libraries
-└── README.md               # Project description
+├── app.py         
+
+# Main Streamlit app
+├── classification_model.pth
+
+# Pretrained model file
+├── requirements.txt        
+
+# Required libraries
+
+└── README.md               
+
+# Project description
 Troubleshooting
 Access Denied: Run the command prompt as Administrator when starting the Streamlit app.
 Virtual Environment Issues: Ensure the correct Python version is used, and your environment is activated.
