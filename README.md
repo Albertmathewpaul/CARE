@@ -30,7 +30,9 @@ Run the following command to install all necessary libraries:
 bash
 Copy code
 pip install -r requirements.txt
-#4. Run the Streamlit Application
+
+
+4. Run the Streamlit Application
 Make sure your virtual environment is activated.
 Start the app by running:
 bash
