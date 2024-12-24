@@ -26,7 +26,6 @@ Copy code
 source myenv/bin/activate
 3. Install Required Libraries
 Run the following command to install all necessary libraries:
-
 bash
 Copy code
 pip install -r requirements.txt
@@ -34,13 +33,20 @@ pip install -r requirements.txt
 
 4. Run the Streamlit Application
 Make sure your virtual environment is activated.
+
 Start the app by running:
 bash
 Copy code
 streamlit run app.py
+
 Open the link provided in the terminal (usually http://localhost:8501) in your web browser.
+
 Notes for Colab Users (If Training is Needed)
-Model training was done in Google Colab. You can replicate the training by uploading the model architecture and training script to Colab. Save the trained weights as classification_model.pth and place it in the project folder.
+
+Model training was done in Google Colab. You can replicate the training by uploading the model architecture and training script to Colab. 
+
+Save the trained weights as classification_model.pth and place it in the project folder.
+
 File Structure
 bash
 Copy code
